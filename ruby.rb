@@ -1,10 +1,9 @@
 require 'rubygems'
 require 'instagram'
-require 'pry'
 
 Instagram.configure do |config| 
-	config.client_id = '3922bdd70c0343b39e5133fb03132cae'
-	config.client_secret = '883f672e2b2044aba02eb16521ecf243'
+	config.client_id = ''
+	config.client_secret = ''
 end
 
 usernames = File.open('input.txt').read
